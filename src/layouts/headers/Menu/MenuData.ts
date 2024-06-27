@@ -24,33 +24,16 @@ interface DataType {
 // menu data 
 const menu_data: DataType[] = [
   {
-    id: 1,
-    title: "Home",
-    link: "#",
-    img_dropdown: true,
-    sub_menus: [
-      { link: "/", title: "Home 01", one_page_link: "/home-1-one-page", demo_img: demo_img_1, },
-      { link: "/home-2", title: "Home 02", one_page_link: "/home-2-one-page", demo_img: demo_img_2, },
-      { link: "/home-3", title: "Home 03", one_page_link: "/home-3-one-page", demo_img: demo_img_3, },
-      { link: "/home-4", title: "Home 04", one_page_link: "/home-4-one-page", demo_img: demo_img_4, },
-      { link: "/home-5", title: "Home 05", one_page_link: "/home-5-one-page", demo_img: demo_img_5, },
-    ],
-  },
-  {
     id: 2,
-    title: "Pages",
+    title: "About Us",
     link: "#",
     has_dropdown: true,
     sub_menus: [
-      { link: "/about", title: "About" },
-      { link: "/team", title: "Team " },
+      { link: "/about", title: "What We Do" },
+      { link: "/team", title: "Our Team" },
       { link: "/team-details", title: "Team Details" },
       { link: "/testimonial", title: "Testimonial" },
-      { link: "/cart", title: "Cart" },
-      { link: "/checkout", title: "Checkout" },
-      { link: "/price", title: "Price" }, 
       { link: "/faq", title: "FAQ" },
-      { link: "/erorr", title: "Erorr" },
     ],
   },
   {
@@ -71,29 +54,6 @@ const menu_data: DataType[] = [
     sub_menus: [
       { link: "/project", title: "Project" },
       { link: "/project-details", title: "Project Details" },
-    ],
-  },
-  {
-    id: 5,
-    title: "Shop",
-    link: "#",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/shop", title: "Shop" },
-      { link: "/shop-details", title: "Shop Details" },
-      { link: "/cart", title: "Cart" },
-      { link: "/checkout", title: "Checkout" },
-    ],
-  },
-  {
-    id: 4,
-    title: "Blog",
-    link: "#",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/blog", title: "Blog" },
-      { link: "/blog-sidebar", title: "Blog Sidebar" },
-      { link: "/blog-details", title: "Blog Details" },
     ],
   },
 

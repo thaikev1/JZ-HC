@@ -4,13 +4,13 @@ import React from 'react';
 import TeamArea from './TeamArea';
 import Breadcrumb from '../common/Breadcrumb';
 import FooterOne from '@/layouts/footers/FooterOne';
-import HeaderFour from '@/layouts/headers/HeaderFour';
+import HeaderOne from '@/layouts/headers/HeaderOne';
 import CtaAreaHomeTwo from '../homes/multi-page/home-2/CtaAreaHomeTwo';
 
 const Team = () => {
   return (
     <>
-      <HeaderFour />
+      <HeaderOne />
       <main>
         <Breadcrumb subtitle='Our Team' title='Our Team' />
         <TeamArea />

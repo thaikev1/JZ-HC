@@ -3,7 +3,7 @@ import Wrapper from "@/layouts/Wrapper";
 import React from "react";
 
 export const metadata = {
-  title: "JZ Heating and Cooling",
+  title: "JZ Heating and Cooling - Mississauga Brampton Toronto GTA",
 };
 
 const index = () => {

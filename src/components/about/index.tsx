@@ -1,6 +1,6 @@
 import React from "react";
 import Breadcrumb from "../common/Breadcrumb";
-import HeaderFour from "@/layouts/headers/HeaderFour";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 import AboutAreaHomeOne from "../homes/multi-page/home/AboutAreaHomeOne";
 import ServiceAreaHomeThree from "../homes/multi-page/home-3/ServiceAreaHomeThree";
 import ChooseAreaHomeOne from "../homes/multi-page/home/ChooseAreaHomeOne";
@@ -12,7 +12,7 @@ import FooterOne from "@/layouts/footers/FooterOne";
 const About = () => {
   return (
     <>
-      <HeaderFour />
+      <HeaderOne />
       <main>
         <Breadcrumb title="About us" subtitle="About us" />
         <AboutAreaHomeOne about_style={true} />

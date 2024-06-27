@@ -32,11 +32,11 @@ const HeaderTwo = ({ onePageHomeTwo }: any) => {
                     <ul>
                       <li>
                         <i className="flaticon-pin"></i>
-                        <a href="#">76 San Fransisco Street. New York</a>
+                        <a href="#">Mississauga, Brampton, GTA</a>
                       </li>
                       <li className="d-none d-md-inline-block">
                         <i className="flaticon-mail-1"></i>
-                        <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                        <a href="mailto:needhelp@company.com">contact@jzhvac.ca</a>
                       </li>
                     </ul>
                   </div>
@@ -55,8 +55,6 @@ const HeaderTwo = ({ onePageHomeTwo }: any) => {
                         <div className="tp-header-top-right-social">
                           <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
                           <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                          <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                          <a href="#"><i className="fa-brands fa-twitter"></i></a>
                         </div>
                       </li>
                     </ul>

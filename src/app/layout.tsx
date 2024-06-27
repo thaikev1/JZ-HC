@@ -12,7 +12,7 @@ export default function RootLayout({
     <html lang="en"> 
 
       <head>
-        <meta name="description" content="Biddut - Electricity Services Next js Template is a modern, clean and professional Next js template" />
+        <meta name="description" content="JZ Heating and Cooling Solutions Mississauga Toronto Brampton GTA" />
         <link rel="icon" href="favicon.ico" sizes="any" />
         <link
           rel="stylesheet"

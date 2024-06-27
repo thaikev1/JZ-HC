@@ -3,7 +3,7 @@ import Wrapper from "@/layouts/Wrapper";
 import Contact from "@/components/contact";
 
 export const metadata = {
-  title: "Biddut Contact - Electricity Services React Next js Template",
+  title: "JZ Heating and Cooling Solutions",
 };
 
 const index = () => {

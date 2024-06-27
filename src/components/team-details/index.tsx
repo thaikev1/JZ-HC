@@ -1,4 +1,4 @@
-import HeaderFour from "@/layouts/headers/HeaderFour";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 import React from "react";
 import Breadcrumb from "../common/Breadcrumb";
 import TeamDetailsArea from "./TeamDetailsArea";
@@ -7,7 +7,7 @@ import FooterOne from "@/layouts/footers/FooterOne";
 const TeamDetails = () => {
   return (
     <>
-      <HeaderFour />
+      <HeaderOne />
       <main>
         <Breadcrumb subtitle="Team Details" title="Team Details" />
         <TeamDetailsArea />

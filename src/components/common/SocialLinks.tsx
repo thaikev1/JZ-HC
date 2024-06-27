@@ -142,10 +142,10 @@ const copy_right_text: copy_right_text_type = {
         © Copyright {new Date().getFullYear()}
         <Link
           target="_blank"
-          href="https://themeforest.net/user/theme_pure/portfolio"
+          href="/"
         >
           {" "}
-          biddut.com{" "}
+          JZ Heating and Cooling Solutions{" "}
         </Link>
         All Rights Reserved{" "}
       </span>

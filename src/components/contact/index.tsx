@@ -1,4 +1,4 @@
-import HeaderFour from "@/layouts/headers/HeaderFour";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 import React from "react";
 import Breadcrumb from "../common/Breadcrumb";
 import FooterOne from "@/layouts/footers/FooterOne";
@@ -9,7 +9,7 @@ import GoogleMap from "./GoogleMap";
 const Contact = () => {
   return (
     <>
-      <HeaderFour />
+      <HeaderOne />
       <main>
         <Breadcrumb subtitle="Contact Us" title="Contact Us" />
         <ContactInfo />

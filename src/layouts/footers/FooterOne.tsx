@@ -36,9 +36,9 @@ interface DataType {
 
 
 const footer_content: DataType = {
-  info: `Desires to obtain pain of it because it is pain but occasionally circum We work with a passion of challenges`,
-  email: `biddutcompany@gmail.com`,
-  address: `Division  San fransico , USA`,
+  info: `HVAC technicians are efficient because they have their ducts in a row.`,
+  email: `jzhvac@gmail.com`,
+  address: `Mississauga, Brampton, Toronto, GTA`,
   footer_links: [
     {
       id: 2,
@@ -114,7 +114,7 @@ const FooterOne = ({ style_2 }: StyleData) => {
                 <div className="tp-footer-widget footer-cols-1">
                   <div className="tp-footer-logo">
                     <Link href="/">
-                      <Image src={biddut_logo} alt="" />
+                      <Image width={250} height={150} src={biddut_logo} alt="" />
                     </Link>
                   </div>
                   <div className="tp-footer-text">

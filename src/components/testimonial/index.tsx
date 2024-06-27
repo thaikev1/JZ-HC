@@ -1,14 +1,14 @@
 import React from "react";
 import Breadcrumb from "../common/Breadcrumb";
 import TestimonialArea from "./TestimonialArea";
-import HeaderFour from "@/layouts/headers/HeaderFour";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 import TestimonialBrand from "./TestimonialBrand";
 import FooterOne from "@/layouts/footers/FooterOne";
 
 const Testimonial = () => {
   return (
     <>
-      <HeaderFour />
+      <HeaderOne />
       <main>
         <Breadcrumb subtitle="Testimonial" title="Testimonial" />
         <TestimonialArea />

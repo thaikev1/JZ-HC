@@ -28,14 +28,14 @@ const HeaderThree = ({ onePageHomeThree }: any) => {
               <div className="col-xl-6 col-lg-8 col-md-8 col-sm-6">
                 <div className="tp-header-top-left-box text-center text-md-start">
                   <ul>
-                    <li>
-                      <i className="flaticon-pin"></i>
-                      <a href="#">76 San Fransisco Street. New York</a>
-                    </li>
-                    <li className="d-none d-md-inline-block">
-                      <i className="flaticon-mail-1"></i>
-                      <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-                    </li>
+                      <li>
+                        <i className="flaticon-pin"></i>
+                        <a href="#">Mississauga, Brampton, GTA</a>
+                      </li>
+                      <li className="d-none d-md-inline-block">
+                        <i className="flaticon-mail-1"></i>
+                        <a href="mailto:needhelp@company.com">contact@jzhvac.ca</a>
+                      </li>
                   </ul>
                 </div>
               </div>
@@ -53,8 +53,6 @@ const HeaderThree = ({ onePageHomeThree }: any) => {
                       <div className="tp-header-top-right-social">
                         <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
                         <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i className="fa-brands fa-twitter"></i></a>
                       </div>
                     </li>
                   </ul>
