@@ -30,19 +30,23 @@ interface DataType {
 
 // about content 
 const about_data: DataType = {
-  count: 35,
+  count: 10,
   experience: `Years of experience`,
-  subtitle: `WE ARE BIDDUT ELECTRIC COMPANY`,
-  title: `Produce your own clean save the environment`,
-  description: `Nullam eu nibh vitae est tempor molestie id sed ex. Quisque dignissim maximus ipsum, sed rutrum metus tincidunt et. Sed eget tincidunt ipsum. Eget tincidunt`,
+  subtitle: `WE ARE JZ Heating and Cooling Solutions`,
+  title: `Discover the Difference with JZ HVAC`,
+  description: `At JZ HVAC, we are more than just HVAC experts, we are your partners in comfort. With a passion for excellence and a commitment to exceptional service, we have been serving the Toronto Greater Area since 2014. 
+
+
+Our skilled technicians bring years of industry experience and hold relevant certifications. We are well-versed in all things HVAC, from installations to repairs.
+We are proud of our track record in saving commercial clients money through energy-efficient solutions. Whether it is optimizing existing systems or recommending the latest technology, we have got you covered.`,
   features: [
-    { icon: `electrician`, title: `Expert <br /> electrician` },
-    { icon: `plug`, title: `Safety <br />assurance` },
+    { icon: `electrician`, title: `Expert <br /> HVAC Technicians` },
+    { icon: `plug`, title: `Quality <br />assurance` },
   ],
   features_list: [
-    `At vero eos et accusamus et iusto odio.`,
-    `Sed ut perspiciatis unde omnis iste natus sit. `,
-    `Established fact that a reader will be distracted. `,
+    `Water heater and AC Unit Pro Installations.`,
+    `Residential cooling and heating troubleshooting. `,
+    `Commercial blueprint projects. `,
   ],
 };
 
@@ -166,10 +170,10 @@ const AboutAreaHomeOne = ({ dark_style, about_style }: styleType) => {
                     </ul>
                   </div>
                   <div className="tp-about-button-box d-flex align-items-center">
-                    <Link className="tp-btn-black" href="/about">
+                    <Link hidden className="tp-btn-black" href="/about">
                       <span>KNOW MORE</span>
                     </Link>
-                    <Image src={about_shape_7} alt="" />
+                    <Image hidden src={about_shape_7} alt="" />
                   </div>
                 </div>
               </div>

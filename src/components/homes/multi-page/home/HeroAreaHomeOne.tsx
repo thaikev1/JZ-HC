@@ -20,18 +20,18 @@ interface DataType {
 const hero_data: DataType[] = [
   {
     img: `/assets/img/hero/hero-3-1.png`,
-    title: `WE ARE BEST ELECTRIC SERVICE COMPANY`,
-    description: `Electrical is All <br /> About Electricians`,
+    title: `Who We Are`,
+    description: `JZ Heating and Cooling Solutions`,
   },
   {
     img: `/assets/img/hero/hero-3-2.png`,
-    title: `WE ARE BEST ELECTRIC SERVICE COMPANY`,
-    description: `Electrical is All <br /> About Electricians`,
+    title: `Professional HVAC Services and Solutions`,
+    description: `Professional Heating and Cooling Installations`,
   },
   {
     img: `/assets/img/hero/hero-3-3.png`,
-    title: `WE ARE BEST ELECTRIC SERVICE COMPANY`,
-    description: `Electrical is All <br /> About Electricians`,
+    title: `Peace of Mind`,
+    description: `Stay Comfortable Year-Round with Our HVAC Solutions`,
   },
 ];
 

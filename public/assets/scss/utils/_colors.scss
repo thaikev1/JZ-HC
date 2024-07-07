@@ -2,6 +2,7 @@ $colors: (
     'common': (
         'white': #fff,
         'black': #16171a,
+        'blue': #336EF9,
         'black-2': #212226,
         'black-3': #1d1e22,
         'black-4': #1c1d20,
@@ -12,15 +13,19 @@ $colors: (
         '2':#f2edeb,
         '3':#f5f5f8,
     ),
+    'blue': (
+        '1': #336EF9,
+    ),
     'text': (
         'body':#727272,
     ),
     'theme': (
         '1': #dd0733,
+        '2': #336EF9,
     ),
     'border': (
-        '1': #f0f0f0,
-        '2': #dfdcdc,
+        '1': #336EF9,
+        '2': #336EF9,
     )
 );
 
@@ -29,4 +34,4 @@ $colors: (
 $white : #fff;
 $black : #020626;
 $theme-primary : #336EF9;
-$border-primary : #F1F1F9;
+$border-primary : #336EF9;

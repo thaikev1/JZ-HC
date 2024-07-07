@@ -17,7 +17,7 @@ const Breadcrumb = ({ title, subtitle }: DataType) => {
             <div className="col-xxl-12">
               <div className="breadcrumb__content z-index d-flex justify-content-between align-items-end">
                 <div className="breadcrumb__section-title-box">
-                  <h4 className="breadcrumb__subtitle">BIDDUT ELCETRIC SERVICE</h4>
+                  <h4 className="breadcrumb__subtitle">JZ Heating and Cooling Solutions</h4>
                   <h3 className="breadcrumb__title">{title}</h3>
                 </div>
                 <div className="breadcrumb__list">

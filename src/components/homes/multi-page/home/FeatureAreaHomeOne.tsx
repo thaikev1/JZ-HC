@@ -24,8 +24,8 @@ const feature_data: DataType[] = [
   },
   {
     delay: `.9s`,
-    icon: `award`,
-    title: `Award winning`,
+    icon: `guaranteed`,
+    title: `Licensed`,
   },
 ];
 
